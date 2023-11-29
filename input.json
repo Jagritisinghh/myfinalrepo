@@ -1,0 +1,29 @@
+[{
+              "id": 1,
+              "name": "John Doe",
+              "posts": [
+                { "postId": 101, "title": "First Post" },
+                { "postId": 102, "title": "Second Post" }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Jane Smith",
+              "posts": [
+                { "postId": 103, "title": "Intro to Node.js" },
+                { "postId": 104, "title": "JavaScript Tips" },
+                { "postId": 105, "title": "Working with JSON" }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Bob Johnson",
+              "posts": [
+                { "postId": 106, "title": "Web Development Tools" },
+                { "postId": 107, "title": "CSS Styling Tricks" }
+              ]
+            }
+          
+          
+        
+    ]

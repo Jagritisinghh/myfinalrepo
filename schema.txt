@@ -1,0 +1,30 @@
+const mongoose = require("mongoose");
+
+const BlogSchema = new mongoose.Schema({
+    "_id": {
+      "$oid": String
+    },
+    "User": {
+      "id": String,
+      "name": String,
+      "password": String,
+    },
+    "Comment": [
+      {  "user_id":String,
+          "user_name":String,
+        "id": String,
+        "title": String,
+      }
+    ]
+  },"Post": [
+      {  "user_id":String,
+        "id": String,
+        "title": String,
+        "post_url": String,
+      }
+    ]
+)  
+
+const Jobs = new mongoose.model("job", jobsSchema);
+
+module.exports = Jobs;
